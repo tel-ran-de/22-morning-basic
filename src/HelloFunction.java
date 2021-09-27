@@ -25,4 +25,8 @@ public class HelloFunction {
     public static void fnFive(){
         System.out.println("пятая функция");
     }
+
+    public static void ZHBNJNJJJJ(){  // так не надо.
+
+    }
 }
