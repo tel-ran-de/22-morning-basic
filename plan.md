@@ -12,5 +12,16 @@
 3. Целые числа в Java
 4. Домашнее задание
 
+## Notation
+
+- CamelCaseNotation - названий классов
+- camelCaseNotation - названий методов
+
+kebap-case-notation - соединяем слова минусами
+snake_case_notation - соединяем слова подчёркиваниями
+
+kebap-case_snake_CamelNotation
+
+бэм - методология; title__header-item
 
 
