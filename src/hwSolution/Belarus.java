@@ -1,3 +1,5 @@
+package hwSolution;
+
 public class Belarus {
     public static void main(String[] args) {
         // Найти соотношение площади Беларуси к площади Украины.

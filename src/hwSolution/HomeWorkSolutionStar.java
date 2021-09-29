@@ -1,3 +1,5 @@
+package hwSolution;
+
 public class HomeWorkSolutionStar {
     public static void main(String[] args) {
         // Написать формулу вычисления стоимости Евро, если курс Евро к Доллару 1,1.

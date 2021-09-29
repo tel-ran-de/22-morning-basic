@@ -1,3 +1,5 @@
+package hwSolution;
+
 public class HomeWorkSolutionFive {
     public static void main(String[] args) {
         double customerRadius = 20.5;

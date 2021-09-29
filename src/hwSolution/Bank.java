@@ -1,3 +1,5 @@
+package hwSolution;
+
 public class Bank {
     public static void main(String[] args) {
         // Если клиент положил в банк 1000€ под 3,5%, какая сумма будет его ждать через семь лет?
