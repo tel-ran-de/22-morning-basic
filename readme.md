@@ -17,8 +17,23 @@
 1. Ссылки
 2. Регистрация IDEA
 3. Домашняя работа
-4. Таблица и работа с ней
-5. Различия хтмл4 и хтмл5
+4. Различия хтмл4 и хтмл5
+
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+        "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<!DOCTYPE html>
+
 
 Новая тема
 
@@ -30,9 +45,6 @@
 5. Медиа
 
 
-## Домашнее задание
-
-- https://andron13.de/school/frontend/fe-exercises/02-table/02-exercises-html-table/
 
 
 ## Telran-Berlin, 2021. Web_22М

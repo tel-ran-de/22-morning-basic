@@ -1,0 +1,19 @@
+img {
+    width: 200px;
+    border: solid 3px green;
+    padding: 3px;
+}
+
+.moscow {
+    border: solid 3px tomato;
+}
+
+#moscow-1 {
+    width: 300px;
+    border: solid 5px gold;
+}
+
+.berlin{
+    border: solid 5px palevioletred;
+    border-radius: 50px;
+}

@@ -1,0 +1,21 @@
+body {
+    color: blue;  /*Цвет шрифта*/
+    background-color: #09f05e; /*Цвет фон*/
+    border: 5px solid blue; /* бордюр */
+}
+
+h1{
+    color: tomato;
+    font-size: 100px;
+}
+
+.first-paragraph{
+    font-size: 26px;
+    background-color: white;
+    border: gold 3px solid;
+}
+
+#important{
+    color: black;
+    font-weight: bold;
+}
