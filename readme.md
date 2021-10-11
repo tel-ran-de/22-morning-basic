@@ -1,19 +1,34 @@
 ## Ссылки
 
-https://caninclude.glitch.me/
-https://caninclude-promo.glitch.me/ru/
-https://caniuse.com/
+- https://caninclude.glitch.me/
+- https://caninclude-promo.glitch.me/ru/
+- https://www.w3schools.com/tags/default.asp
+- https://docs.emmet.io/abbreviations/syntax/
+- https://www.w3.org/WAI/standards-guidelines/aria/
+- https://caniuse.com/
+
+## Тренажёры
+
+1. https://www.freecodecamp.org/learn/responsive-web-design/
+2. htmlacademy.ru/courses
 
 ## План
 
-1. Домашняя работа
-2. Таблицы
-3. Работа над ошибками
-4. Плюсы и возможности айдии
-5. Таблица и работа с ней
-6. Ссылки относительные и абсолютные
-7. Различия хтмл4 и хтмл5
-8. Ссылки на чтиво
+1. Ссылки
+2. Регистрация IDEA
+3. Домашняя работа
+4. Таблица и работа с ней
+5. Различия хтмл4 и хтмл5
+
+Новая тема
+
+0. CSS-01.pptx
+1. Css
+2. DevTools
+3. Фонты
+4. CSS-02-fonts.pptx
+5. Медиа
+
 
 ## Домашнее задание
 
@@ -66,6 +81,7 @@ MyWebsite/
     last-version-app.html
     ./last-version-app.html
 ```
+
 
 
 
