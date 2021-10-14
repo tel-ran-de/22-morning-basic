@@ -1,0 +1,13 @@
+body {
+    display: block;
+}
+
+img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+header,
+p {
+    border: 3px tomato solid;
+}
