@@ -1,13 +1,48 @@
 body {
-    display: block;
+
 }
 
+.avatar{
+    width:200px;
+    margin: 0 auto;
+}
 img {
-    width: 200px;
+    display: inline;
+    /*display: block;*/
+    width: 100%;
     border-radius: 50%;
+    border: 2px white solid;
+    padding: 1px;
 }
 
-header,
+
 p {
-    border: 3px tomato solid;
+    border: 2px white solid;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+section {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #194A84;
+    color: white;
+    /*margin-bottom: 400px;*/
+    /*    margin: 50px 150px 250px 300px;*/
+    padding: 1rem;
+}
+
+header {
+    /*padding-left: 100px;*/
+    /*margin-left: 20%;*/
+}
+
+/*#uppercase*/
+.first-paragraph{
+    text-transform: uppercase;
+}
+
+.nickname,
+p{
+    text-align: center;
 }
