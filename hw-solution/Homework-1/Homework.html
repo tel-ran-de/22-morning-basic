@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tags description</title>
+</head>
+<style>
+    dl {
+        border: 2px solid lightslategrey;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 0 auto;
+    }
+
+    dt {
+        text-align: center;
+        border-top: crimson dashed 3px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        color: tomato;
+        font-size: large;
+    }
+
+    img {
+        width: 300px;
+        height: 200px;
+    }
+
+    table, td, th {
+        border: solid 1px black;
+        text-align: center;
+        margin-top: 20px;
+    }
+</style>
+<body>
+<dl>
+
+    <dt>a</dt>
+    <dd>
+        The "a" tag is a line html element, which defines a hyperlink, which is used to link from one page to another.
+        This tag has following attributes:
+        <ul>
+            <li>download</li>
+            <li>href</li>
+            <li>hreflang</li>
+            <li>media</li>
+            <li>ping</li>
+            <li>referrerpolicy</li>
+            <li>rel</li>
+            <li>target</li>
+            <li>type</li>
+        </ul>
+        <p><a href="https://www.w3schools.com/">some link</a></p>
+    </dd>
+
+    <dt>abbr</dt>
+    <dd>
+        The "abbr" is a line html abbreviation tag using as the global title attribute to show the description for
+        the
+        abbreviation/acronym when you mouse over the element.
+        This tag has following attribute:
+        <ul>
+            <li>title</li>
+        </ul>
+        <p><abbr title="HyperText Markup Language">html</abbr></p>
+    </dd>
+
+    <dt>address</dt>
+    <dd>
+        The "address" is a block tag defines the contact information. The contact information can be an email address,
+        URL, physical address, phone number, social media handle, etc. The text in the "address" element usually renders
+        in italic, and browsers will always add a line break before and after the "address" element.
+        <address><p>Hamburg, Berner heerweg 130, 22159</p></address>
+    </dd>
+
+    <dt>applet, embed, object</dt>
+    <dd>
+        <ol>
+            <li>
+                <p>"applet" tag was used in HTML 4 to define an embedded applet and not supported in html 5.
+                </p>
+            </li>
+            <li>
+                <p>The "embed" tag defines a container for an external resource, such as a web page, a picture, a media
+                    player, or a plug-in application. It has the following attributes:</p>
+                <ul>
+                    <li>height</li>
+                    <li>src</li>
+                    <li>type</li>
+                    <li>width</li>
+                </ul>
+                <h4>The embed element</h4>
+                <embed type="text/html" src="file.txt" width="250" height="100">
+            </li>
+            <li>
+                <p>The "object" tag as well defines a container for an external resource. The external resource can be a
+                    web page, a picture, a media player, or a plug-in application. It has the following attributes:</p>
+                <ul>
+                    <li>data</li>
+                    <li>form</li>
+                    <li>height</li>
+                    <li>name</li>
+                    <li>type</li>
+                    <li>typemustmatch</li>
+                    <li>usemap</li>
+                    <li>width</li>
+                </ul>
+                <h4>The object element</h4>
+                <object data="berlin-10.jpg" width="200"></object>
+            </li>
+        </ol>
+    </dd>
+
+    <dt>area</dt>
+    <dd>
+        The "area" is a line tag, that defines an area inside an image map (an image map is an image with clickable
+        areas). Area elements are always nested inside a "map" tag. This element has the following attributes:
+        <ul>
+            <li>alt</li>
+            <li>coords</li>
+            <li>download</li>
+            <li>href</li>
+            <li>hreflang</li>
+            <li>media</li>
+            <li>referrerpolicy</li>
+            <li>rel</li>
+            <li>shape</li>
+            <li>target</li>
+            <li>type</li>
+        </ul>
+        <h4>The map and area elements</h4>
+        <p>Click on the cup of tea or cup of coffee to go to a new page and read more about the topic:</p>
+        <img src="1.jpg" alt="Workplace" usemap="#workmap">
+        <map name="workmap">
+            <area shape="rect" coords="0,0,150,200" alt="coffe" href="coffe.jpg">
+            <area shape="rect" coords="151,0,300,200" alt="tea" href="tea.jpg">
+        </map>
+    </dd>
+
+    <dt>article</dt>
+    <dd>
+        The "article" is a block html tag specifies independent, self-contained content. An "article" should make sense
+        on its own and it should be possible to distribute it independently from the rest of the site. Potential sources
+        for the "article" element are: forum post, blog post, news story.
+    </dd>
+
+    <dt>aside</dt>
+    <dd>
+        The "aside" is a block html tag defines some content aside from the content it is placed in. The aside content
+        should be indirectly related to the surrounding content.
+    </dd>
+
+    <dt>audio</dt>
+    <dd>
+        The "audio" is line html tag and used to embed sound content in a document, such as music or other audio
+        streams. The "audio" tag contains one or more "source" tags with different audio sources. The browser will
+        choose the first source it supports. This tag has the following attributes:
+        <ul>
+            <li>autoplay</li>
+            <li>controls</li>
+            <li>loop</li>
+            <li>muted</li>
+            <li>preload</li>
+            <li>src</li>
+        </ul>
+        <h4>The audio element</h4>
+        <p>Click on the play button to play a sound:</p>
+        <audio controls>
+            <source src="sound.mp3">
+        </audio>
+    </dd>
+
+    <dt>b</dt>
+    <dd>
+        The "b" is line html tag that make some text bold (without marking it as important). According to the HTML5
+        specification, the "b" tag should be used as a LAST resort when no other tag is more appropriate.
+        <p>This is normal text - <b>and this is bold text</b>.</p>
+    </dd>
+
+    <dt>base</dt>
+    <dd>
+        The "base" is line html tag specifies the base URL and/or target for all relative URLs in a document. There can
+        only be one
+        single "base" element in a document, and it must be inside the "head" element. This tag has the following
+        attributes:
+        <ul>
+            <li>href</li>
+            <li>target</li>
+        </ul>
+    </dd>
+
+    <dt>basefont</dt>
+    <dd>
+        The ""basefont"" is line html tag, that was used in HTML 4 to specify a default text-color, font-size or
+        font-family for all the text in an HTML document. Presently not supported in html 5.
+    </dd>
+
+    <dt>bdi</dt>
+    <dd>
+        The "bdi" is line html tag, that isolates a part of text that might be formatted in a different direction from
+        other text outside it. This element is useful when embedding user-generated content with an unknown text
+        direction.
+    </dd>
+
+    <dt>bdo</dt>
+    <dd>
+        The "bdo" is line html tag, that is used to override the current text direction. This tag yas attribute "dir"
+        and values "ltr" & "rtl".
+        <h4>The bdo element</h4>
+        <p>This paragraph will go left-to-right.</p>
+        <p><bdo dir="rtl">This paragraph will go right-to-left.</bdo></p>
+    </dd>
+
+    <dt>big</dt>
+    <dd>
+        The "big" is line html tag, that was used in html 4 and presently not supported by html 5. This element increase
+        size of the text to 1.
+    </dd>
+
+    <dt>blockquote</dt>
+    <dd>
+        The "blockquote" is a block html tag, that specifies a section, quoted from another source. This tah has an
+        attribute "cite".
+    </dd>
+
+    <dt>body</dt>
+    <dd>
+        The "body" tag defines the document's body. This element contains all the contents of an HTML document, such as
+        headings, paragraphs, images, hyperlinks, tables, lists, etc. There can only be one "body" element in an HTML
+        document.
+    </dd>
+
+    <dt>br</dt>
+    <dd>
+        The "br" is a line html tag that inserts a single line break.
+        Usually used for writing addresses or poems.
+    </dd>
+
+    <dt>button</dt>
+    <dd>
+        The "button" is a line html tag that defines a clickable button. Inside an element you can put text. This tag
+        has the following attributes:
+        <ul>
+            <li>autofocus</li>
+            <li>disabled</li>
+            <li>form</li>
+            <li>formaction</li>
+            <li>formenctype</li>
+            <li>formmethod</li>
+            <li>formnovalidate</li>
+            <li>formtarget</li>
+            <li>name</li>
+            <li>type</li>
+            <li>value</li>
+        </ul>
+        <button type="button">Click Me!</button>
+    </dd>
+
+    <dt>canvas</dt>
+    <dd>
+        The "canvas" is a block html element, used to draw graphics, on the fly, via scripting (usually JavaScript). It
+        is only a container for graphics, you must use a script to actually draw the graphics. This tag has the
+        following attributes:
+        <ul>
+            <li>height</li>
+            <li>width</li>
+        </ul>
+    </dd>
+
+    <dt>caption</dt>
+    <dd>
+        The "caption" is a line tag, that defines a table caption and should be inserted immediately after the "table"
+        tag. By default,
+        a table caption will be center-aligned above a table.
+        <table>
+            <caption style="text-align:right">CAPTION</caption>
+            <tr>
+                <th>1</th>
+                <th>2</th>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+        </table>
+    </dd>
+
+    <dt>center</dt>
+    <dd>
+        The "center" is a line html element, that was used in HTML4 to center-align text. Presently not supported in
+        html 5.
+    </dd>
+
+    <dt>cite</dt>
+    <dd>
+        The "cite" is a line html element, that defines the title of a creative work (e.g. a book, a poem, a song, a
+        movie, a painting, a sculpture, etc.).
+        <h3>The cite element</h3>
+        <img src="vangog.jpg" alt="image">
+        <p><cite>starry night</cite> by van gogh Painted in 1893.</p>
+    </dd>
+
+    <dt>code</dt>
+    <dd>
+        The "code" is a line html element, that is used to define a piece of computer code. The content inside is
+        displayed in the browser's default monospace font. This tag has the following attributes:
+        <ul>
+            <li>samp</li>
+            <li>kbd</li>
+            <li>var</li>
+            <li>pre</li>
+        </ul>
+    </dd>
+
+    <dt>col</dt>
+    <dd>
+        The "col" is a line html element, that specifies column properties for each column within a colgroup element.
+        This tag is useful for applying styles to entire columns, instead of repeating the styles for each cell, for
+        each row. It has attribute "span".
+    </dd>
+
+    <dt>colgroup</dt>
+    <dd>
+        The "colgroup" is a line html element, that specifies a group of one or more columns in a table for formatting.
+        This tag is useful for applying styles to entire columns, instead of repeating the styles for each cell, for
+        each rowand must be a child of a "table" element, after any "caption" elements and before any "thead", "tbody",
+        "tfoot", and "tr" elements.
+    </dd>
+</dl>
+</body>
+</html>

@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 40px;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    /*   box-sizing: border-box;*/
+}
+
+.box-one {
+    background-color: #518f66;
+    border: 5px solid black;
+    padding: 50px;
+}
+
+.box-two {
+    background-color: #ded4c5;
+    border: 5px solid black;
+
+}
+
+.box-three {
+    border: 0 solid black;
+    background-color: tomato;
+}
