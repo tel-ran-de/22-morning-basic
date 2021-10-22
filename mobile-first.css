@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+section {
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px gray solid;
+}
+
+div {
+    height: 100px;
+}
+
+.one {
+    background-color: white;
+}
+
+.two {
+    background-color: red;
+}
+
+.three {
+    background-color: white;
+}
+
+@media (min-width: 600px) {
+    .one {
+        background-color: blue;
+    }
+
+    .two {
+        background-color: yellow;
+    }
+
+    .three {
+        background-color: red;
+    }
+}
+
+@media (min-width: 700px) {
+    .one {
+        background-color: black;
+    }
+
+    .two {
+        background-color: red;
+    }
+
+    .three {
+        background-color: gold;
+    }
+}
+
+@media (min-width: 800px) {
+    .one {
+        background-color: white;
+    }
+
+    .two {
+        background-color: blue;
+    }
+
+    .three {
+        background-color: red;
+    }
+}

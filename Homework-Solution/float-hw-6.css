@@ -103,7 +103,36 @@ footer {
         /*display: none;*/
         width: 100px;
     }
+
     .printMsg {
         display: block;
     }
 }
+
+/*Для смартфонов , ширина меньше 700Px*/
+@media (max-width: 700px) {
+    body {
+        width: 100%;
+    }
+
+    main, aside, img {
+        width: 100%;
+
+    }
+
+    .left {
+        float: none;
+    }
+
+    .right {
+        float: none;
+    }
+}
+
+/*
+Минимальная ширина 700px и выше
+@media (min-width: 700px) {
+    body{
+        background-color:black;
+    }
+}*/
