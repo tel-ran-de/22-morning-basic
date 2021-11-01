@@ -1,0 +1,99 @@
+*{
+   _color: blueviolet; 
+   box-sizing: border-box;
+   /* margin: 0;
+   padding: 0; */
+}
+
+.box h1 {
+    color: red;
+
+}
+
+.box{
+    _height: 200px;
+    width: 300px;
+    margin: 40px auto;
+    padding: 50px;
+    border: 5px solid magenta;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.second-box{
+    width: 50%;
+}
+
+h1{
+    color: black;
+}
+
+#title .box h1{
+    color: blue;
+}
+
+.item{
+    font-size: 1.5rem;
+    background-color: aquamarine;
+
+}
+
+.item2{
+    background-color: beige;
+    width: 75%;
+    margin-left: 20px;
+    padding: 20px;
+    color: blue;
+}
+.item3{
+    background-color: red;
+    _width: 50%;
+    padding: 10px;
+}
+
+ul{
+    list-style: none; 
+    margin-bottom: 100px;
+}
+
+ul.nav li{
+    float:left;
+    padding-right: 15px;
+}
+
+ul.nav li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+h1,h2,a{
+    color:black
+}
+
+.products{
+    width: 900px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.card{
+    border: 1px solid black;
+    text-align: left;
+    padding: 15px;
+    width: calc(100%/3 - 30px);
+    margin: 0 15px;
+    float:left;
+    box-sizing: border-box;
+}
+
+.last{
+    background-color: aquamarine;
+    width: 100px;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+.clear{
+    clear: both;
+}
