@@ -12,8 +12,13 @@
             margin: 20px auto;
             text-align: center;
         }
-        .number-input{
+
+        .number-input {
             width: 200px;
+        }
+
+        fieldset{
+            text-align: left;
         }
     </style>
 </head>
@@ -26,12 +31,12 @@
         <hr>
         <h3>simple form</h3>
         <form action="#" method="get">
-            Last name: <br> 
+            Last name: <br>
             <input type="text" placeholder="type your last name" name="lastName" size="60" requried>
             <br>
             <br>
-            Age: <br> 
-            <input class="number-input"type="number" placeholder="type your age" name="age" min="1" max="100" step="1">
+            Age: <br>
+            <input class="number-input" type="number" placeholder="type your age" name="age" min="1" max="100" step="1">
             <br>
             <br>
             Gender:<br>
@@ -47,11 +52,11 @@
             <br>
             E-mail: <br>
             <input type="email" name="email" placeholder="enter your email, please" required>
-            <input type="submit" value = "send">
+            <input type="submit" value="send">
             <br>
             <br>
             Checkbox:<br>
-            <input type="checkbox" name="my-checkbox" > I accept the terms
+            <input type="checkbox" name="my-checkbox"> I accept the terms
             <br>
             <br>
             Car:<br>
@@ -73,7 +78,7 @@
             <br>
             <br>
             Date:
-            <input type="date" name="data" >
+            <input type="date" name="data">
             <br>
             <br>
             Message:<br>
@@ -82,13 +87,24 @@
         <hr>
         <form>
             <fieldset>
-                <legend>My contact</legend>
+                <legend>Write us</legend>
                 <label for="name-input">Name:</label>
                 <input type="text" id="name-input" name="name" placeholder="type your name">
+                <br>
+                <label for="email-input">E-mail:</label>
+                <input type="email" id="email-input" name="email" placeholder="type your email">
+                <br>
+                <label for="message-input">Message:</label>
+                <textarea type="text" id="message-input" name="message" placeholder="type your message" cols="30" rows="10">
+                </textarea>
+                <br>
+                <input type="submit" value ="send">
+                <input type="reset" value ="clear">
+                <input type="button" value ="stop">
             </fieldset>
         </form>
     </div>
-    
+
 
 
 </body>
