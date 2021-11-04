@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form/input</title>
+    <style>
+        .products {
+            width: 70%;
+            margin: 20px auto;
+            text-align: center;
+        }
+        .number-input{
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="products">
+        <h2>Form/input etc</h2>
+        <input type="text" placeholder="type your first name" value="">
+        <button>click</button>
+        <hr>
+        <h3>simple form</h3>
+        <form action="#" method="get">
+            Last name: <br> 
+            <input type="text" placeholder="type your last name" name="lastName" size="60" requried>
+            <br>
+            <br>
+            Age: <br> 
+            <input class="number-input"type="number" placeholder="type your age" name="age" min="1" max="100" step="1">
+            <br>
+            <br>
+            Gender:<br>
+            female <input type="radio" name="gender" value="female">
+            male <input type="radio" name="gender" value="male">
+            <input type="submit" value="submit">
+            <br>
+            <br>
+            Value:<br>
+            <input type="range" name="myRange" max="300" min="0" step="10" value="150">
+            <output for="myRange">200</output>
+            <br>
+            <br>
+            E-mail: <br>
+            <input type="email" name="email" placeholder="enter your email, please" required>
+            <input type="submit" value = "send">
+            <br>
+            <br>
+            Checkbox:<br>
+            <input type="checkbox" name="my-checkbox" > I accept the terms
+            <br>
+            <br>
+            Car:<br>
+            <select name="car">
+                <option value="">Choise a car</option>
+                <option value="volkswagen">Volkswagen</option>
+                <option value="opel">Opel</option>
+                <option value="bmw">BMW</option>
+            </select>
+            <br>
+            <br>
+            Color:
+            <input type="color" name="color">
+            <br>
+            <br>
+            Password:<br>
+            <input type="password" name="password" size="48" autofocus>
+            <input type="image" src="./klipartz.png" width="50">
+            <br>
+            <br>
+            Date:
+            <input type="date" name="data" >
+            <br>
+            <br>
+            Message:<br>
+            <textarea name="message" cols="50" rows="10" placeholder="type your message" autofocus></textarea>
+        </form>
+        <hr>
+        <form>
+            <fieldset>
+                <legend>My contact</legend>
+                <label for="name-input">Name:</label>
+                <input type="text" id="name-input" name="name" placeholder="type your name">
+            </fieldset>
+        </form>
+    </div>
+    
+
+
+</body>
+
+</html>
