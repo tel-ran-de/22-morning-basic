@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+
+/* .container{
+    border: 1px solid black;
+    position: relative;
+} */
+
+.wrapper{
+    width: 400px;
+    height: 400px;
+    border: 1px solid red;
+    margin: 100px auto;
+    position: relative;
+    _overflow: hidden;
+    top:-50px;  /* bottom: 50px; */
+}
+
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    position: fixed;
+    left:400px;
+    top:20px;
+    z-index: -1;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    bottom: 50px;
+    left:50px;
+    z-index: 10;
+    /* position: relative; */
+    position: absolute;
+}
+
+.box3{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: relative;
+    left: -50px;
+    
+    
+}
+
+.sticky{
+    width: 100px;
+    height: 100px;
+    position: sticky;
+    top: 10px;
+    left: 50px;
+    background-color: aquamarine;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    margin-top: 10px;
+}
+
+p.link1 a:hover{
+    color: red;
+}
+
+p.link2 a:hover{
+    font-size: 150%;
+}
+
+p.link3 a:hover{
+    background-color: red;
+    color: black;
+}
+
+p.link4 a:hover, p.link4 a:visited{
+    text-decoration: none !important;
+    color: green;
+}
+
+p.link4 a:active{
+    background-color:red;
+}
+
+.hidden-item{
+    margin-top: 20px;
+    height: 100px;
+}
+
+.hidden-item p{
+    display: none;
+    background-color: yellow;
+    padding: 20px 0;
+}
+
+.hidden-item:hover p{
+    display: block;
+}
+
+button{
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+}
+
+button:hover{
+    background-color: rgba(0, 0, 0, 0.447);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
