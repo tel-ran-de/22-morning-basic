@@ -54,3 +54,28 @@ a.button{
     display: inline-block;
 }
 
+.cards-section{
+    padding: 100px 0;
+    margin: 0 -15px;
+}
+
+.card{
+    display: inline-block;
+    margin: 0 15px;
+    width: calc(100%/4 - 30px);
+    text-align: center;
+    border: 1px solid white;
+    padding: 30px 10px;
+    border-radius: 8px;
+}
+
+.card img{
+    width: 30%;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.card h3{
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
