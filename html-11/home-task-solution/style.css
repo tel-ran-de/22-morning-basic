@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    width: 80%;
+    margin: 100px auto 0;
+    height: 100vh;
+}
+/* Red section */
+.bg-red{
+    height: 25vh;
+    background-color: red;
+}
+
+.car{
+    width: 80%;
+    position: relative;
+    text-align: center;
+    top:-40%;
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.car h2, .btn{
+    font-size: 3rem;
+    font-family: 'Crimson Text', Helvetica, sans-serif;
+}
+
+.car p{
+    color: grey;
+    line-height: 1.9;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.btn{
+    font-size: 16px;
+    border: 2px solid red;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+.btn:hover{
+    background-color: red;
+    color: white;
+}
+
+.link a{
+    color: red;
+}
+
+/* green section */
+.bg-green{
+    background-color: rgb(56,223,16);
+    width: 70%;
+    height: 600px;
+    margin: 0 auto;
+}
+.text-box{
+    width: 50%;
+    position: relative;
+    display: inline-block;
+    left:-50px;
+    text-align: start;
+    top:-30%;
+}
+
+.img-box{
+    width: 50%;
+    height: 90%;
+    position: relative;
+    display: inline-block;
+    top:5%;
+    background-image: url('./images/pexels-photo-3908076.jpeg');
+    background-size: cover;
+    right: -50px;
+}
+
+.text-box{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-box h2{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.text-box p{
+    margin-bottom: 60px;
+    font-size: 16px;
+}
+
+.text-box a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    background-color: black;
+    display: inline-block;
+
+}
+
