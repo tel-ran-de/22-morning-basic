@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    border: 1px solid blue;
+    _height: 400px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.box{
+    width: 200px;
+    border: 1px solid green;
+    padding: 10px;
+}
+
+.s-box{
+    align-self: flex-end;
+}
+
+.row-2{
+    margin-top: 40px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: red;
+    padding: 10px;
+    margin: 15px;
+    _width: 150px;
+    _width: calc(100%/4 - 30px);
+    flex-basis: 350px;
+    flex-grow: 1;
+}

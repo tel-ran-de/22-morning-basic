@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body, a{
+    font-family: Montserrat, Helvetica, sans-serif;
+    color:white;
+}
+
+ul{
+    list-style: none;
+}
+
+.wrapper{
+    width: 800px;
+    margin: 0 auto;
+}
+
+header{
+    background-image: url('./images/b-interior.jpeg');
+    background-size:cover;
+    background-position: center bottom 25%;
+    height: 100vh;
+    position: relative;
+}
+
+header nav{
+    height: 80px;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+header nav img{
+    float: left;
+    width: 60px;
+}
+
+header nav ul{
+    float: right;
+    padding: 15px 0;
+}
+
+header nav ul li{
+    display: inline-block;
+    width: 100px;
+    padding: 10px 20px;
+}
+
+header ul li a{
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    background-color: rgba(255, 198, 192, 0.7);
+}
+
+header .sub-menu{
+    position: absolute;
+    display: none;
+}
+
+header nav ul li:hover .sub-menu{
+    display: block;
+}
+.sub-menu li{
+    margin-left: -20px;
+    display: block;
+    width: fit-content;
+}
+.sub-menu li:hover{
+    background-color: rgba(255, 198, 192, 0.3);
+}
+
+header h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 80px;
+}
+
+p{
+    text-align: center;
+    width: 60%;
+    margin: 20px auto;
+}
+
+.buttons{
+    text-align: center;
+    padding: 15px;
+}
+
+.btn{
+    border:2px solid white;
+    text-decoration: none;
+    width: 150px;
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    margin: 0 10px;
+    line-height: 36px;
+}
+
+.btn img, .btn span{
+    vertical-align: middle;
+}
+
+.btn img{
+    margin-right: 5px;
+}
+
+.btn-more{
+    background-color: rgba(255, 198, 192, 0.8) ;
+}
+
+.btn:hover{
+    background-color: rgba(255, 198, 192, 0.5)
+}
+
+.btn-msg{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    background-color:rgba(255, 198, 192, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.btn-msg:hover{
+    border:3px solid white;
+}
