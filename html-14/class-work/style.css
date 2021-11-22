@@ -1,0 +1,113 @@
+.container{
+	width: 600px;
+	margin: 100px auto;
+}
+
+.container h2{
+	border: 1px solid black;
+	width: 200px;
+	padding: 15px;
+	/* transition-property: background-color;
+	transition-duration: 1s;
+	transition-timing-function: cubic-bezier(.69,.02,.4,1.61);
+	transition-delay: 2s; */
+	/* transition: background-color 2s 1s, transform 3s cubic-bezier(.19,.26,.44,1.63), border-radius 3s */
+	transition: all 5s;
+}
+
+.flash{
+	animation: flash 2s linear;
+}
+
+.container{
+	_border: 1px solid red;
+}
+
+.container h2:hover{
+	background-color: red;
+	transform: scale(1.5);
+	border-radius: 30px;
+	_opacity: 0;
+}
+
+.item{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	top:100px;
+	left: 100px;
+	color: aliceblue;
+	font-size: 0.8rem;
+	/* animation-name: moving;
+	animation-duration: 2s;
+	animation-delay: 1s;
+	animation-timing-function:linear;
+	_animation-direction: reverse;
+	_animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+	_animation-play-state: paused; */
+	animation: moving 3s linear forwards;
+}
+
+/* .item:hover{
+	animation-play-state: running;
+} */
+
+.item1{
+	animation: moving 4s;
+}
+
+.box{
+	padding: 15px;
+	border: 1px solid black;
+	animation: backInDown 2s ease;
+}
+
+.box:hover{
+	animation: shakeX 2s;
+}
+
+@keyframes flash{
+	from, 50%, to{
+		opacity: 1;
+	}
+	25%, 75%{
+		opacity: 0;
+	}
+	/* 50%{
+		opacity: 1;
+	}
+	75%{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	} */
+}
+
+@keyframes moving{
+	0%{
+		left:100px;
+	}
+	25%{
+		left:400px;
+		top:400px;
+		background-color: blueviolet;
+	}
+	50%{
+		top:300px;
+		left:600px;
+		background-color: red;
+	}
+	75%{
+		background-color: lawngreen;
+	}
+	100%{
+		top:200px;
+		left: 800px;
+		transform: rotate(360deg) scale(5);
+		background-color: cadetblue;
+		font-size: 2rem;
+	}
+}
