@@ -1,0 +1,143 @@
+*{
+	box-sizing: border-box;
+}
+
+.container{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.row, .row1, .row2{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 15px -15px;
+}
+
+/* .row div{
+	height: 150px;
+	background-color: #ccc;
+	border: 1px solid red;
+	margin: 0 15px;
+	flex-basis: calc(100%/12 - 30px);
+}
+
+.row1 div{
+	height: 150px;
+	background-color: #ccc;
+	border: 1px solid red;
+	margin: 0 15px;
+	flex-basis: calc(100%/3 - 30px);
+}
+
+.row2 div{
+	height: 150px;
+	background-color: #ccc;
+	border: 1px solid red;
+	margin: 0 15px;
+	flex-basis: calc(50% - 30px);
+} */
+
+.col-1{
+	height: 150px;
+	background-color: #ccc;
+	border: 1px solid red;
+	margin: 0 15px;
+	flex-basis: calc(100%/12 - 30px);
+}
+
+.col-2{
+	height: 150px;
+	background-color: #ccc;
+	border: 1px solid red;
+	margin: 0 15px;
+	flex-basis: calc(100%/6 - 30px);
+}
+
+.col-3{
+	height: 150px;
+	background-color: #ccc;
+	border: 1px solid red;
+	margin: 0 15px;
+	flex-basis: calc(100%/4 - 30px);
+}
+
+.col-4{
+	height: 150px;
+	background-color: #ccc;
+	border: 1px solid red;
+	margin: 0 15px;
+	flex-basis: calc(100%/3 - 30px);
+}
+
+.col-6{
+	height: 150px;
+	background-color: #ccc;
+	border: 1px solid red;
+	margin: 0 15px;
+	flex-basis: calc(100%/2 - 30px);
+}
+
+.col-12{
+	height: 150px;
+	background-color: #ccc;
+	border: 1px solid red;
+	margin: 0 15px;
+	flex-basis: calc(100% - 30px);
+}
+
+.color-green{
+	color: green;
+}
+
+@media screen and (max-width:960px) {
+	.color-blue-md{
+		color: blue;
+	}
+	.col-md-1{
+		height: 150px;
+		background-color: #ccc;
+		border: 1px solid red;
+		margin: 0 15px;
+		flex-basis: calc(100%/12 - 30px);
+	}
+	
+	.col-md-2{
+		height: 150px;
+		background-color: #ccc;
+		border: 1px solid red;
+		margin: 0 15px;
+		flex-basis: calc(100%/6 - 30px);
+	}
+	
+	.col-md-3{
+		height: 150px;
+		background-color: #ccc;
+		border: 1px solid red;
+		margin: 0 15px;
+		flex-basis: calc(100%/4 - 30px);
+	}
+	
+	.col-md-4{
+		height: 150px;
+		background-color: #ccc;
+		border: 1px solid red;
+		margin: 0 15px;
+		flex-basis: calc(100%/3 - 30px);
+	}
+	
+	.col-md-6{
+		height: 150px;
+		background-color: #ccc;
+		border: 1px solid red;
+		margin: 0 15px;
+		flex-basis: calc(100%/2 - 30px);
+	}
+	
+	.col-md-12{
+		height: 150px;
+		background-color: #ccc;
+		border: 1px solid red;
+		margin: 0 15px;
+		flex-basis: calc(100% - 30px);
+	}
+}

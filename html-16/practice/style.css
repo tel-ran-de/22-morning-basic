@@ -1,0 +1,161 @@
+body{
+	font-family: Montserrat, sans-serif;
+}
+
+ul, li{
+	display: block;
+}
+
+h1, h3{
+	font-weight: 600;
+}
+
+/* header */
+
+header{
+	background: linear-gradient(0deg,
+	rgba(0,0,0,0.5) 0%,
+	rgba(0,0,0,0.5) 100%),
+	url('./images/head_bg.jpg');
+	background-size: cover;
+	height: 100vh;
+	min-height: 800px;
+}
+
+header.container-fluid a.nav-link{
+	color: #e4e4e4;
+	font-weight: 400;
+	transition: color 0.4s ease;
+}
+
+header.container-fluid a:hover{
+	color: #fed136;
+}
+
+p.intro{
+	font-family: 'Times New Roman', Times, serif;
+	font-style: italic;
+	font-size: 40px;
+	color: white;
+	margin-top: 100px;
+}
+
+header h1{
+	animation: zoomIn;
+	animation-duration: 2s;
+}
+
+a.main-btn{
+	background-color: #fed136;
+	border-radius: 10px;
+	border: 3px solid #fed136;
+	text-decoration: none;
+	width: 240px;
+	transition: background-color 1s ease;
+}
+
+a.main-btn:hover{
+	background-color: #fed136bb;
+}
+
+/* services */
+
+p.section-text{
+	font-family: 'Times New Roman', Times, serif;
+	color: #777;
+}
+i.icon-service{
+	color: #fed136;
+	transition: transform 1s ease;
+}
+
+i.icon-service:hover{
+	transform: scale(1.5);
+}
+
+/* portfolio */
+
+section.portfolio{
+	background-color: #e4e4e4;
+}
+
+.item{
+	position: relative;
+	padding: 5px;
+}
+
+.item img{
+	width: 100%;
+}
+
+.item-content{
+	background-color: #000;
+	position: absolute;
+	width: calc(100% - 10px);
+	height: calc(100% - 10px);
+	opacity: 0;
+	top:5px;
+	left: 5px;
+	transition: opacity 2s ease;
+}
+
+.item-content:hover{
+	opacity: 0.8;
+}
+
+/* gallery */
+
+.gallery-images{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-auto-rows: minmax(200px, auto);
+	gap:1em;
+}
+
+.box1{
+	background: url(./images/item1.jpg) no-repeat;
+	background-size: cover;
+	grid-column: 1/3;
+	grid-row: 1/3;
+}
+
+.box2{
+	background: url(./images/item2.jpg) no-repeat;
+	background-size: cover;
+}
+.box3{
+	background: url(./images/item3.jpg) no-repeat;
+	background-size: cover;
+}
+.box4{
+	background: url(./images/item4.jpg) no-repeat;
+	background-size: cover;
+}
+.box5{
+	background: url(./images/item5.jpg) no-repeat;
+	background-size: cover;
+}
+.box6{
+	background: url(./images/item6.jpg) no-repeat;
+	background-size: cover;
+	grid-column: 3/5;
+	grid-row: 2/4;
+}
+
+a.t-link{
+	color:white
+}
+
+@media screen and (max-width: 762px) {
+	.gallery-images{
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.box6{
+		grid-column: 1/3;
+		grid-row: 4/6;
+	}
+	p.intro{
+		margin-top: 50px;
+	}
+}
